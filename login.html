@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Normalize.css"> 
+    <link rel="stylesheet" href="css/style.css">  
+    <script src="js/jQuery 3.6.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <title>Gang Start : 異世界極道傳說ㅣ非官方網站-登入介面</title>
+</head>
+
+<body onselectstart="return false" oncontextmenu="return false" style="height:100%"> <!-- onmousedown="return false"--> 
+     <!--header-->
+<div class="wrapper">
+    <div class="headerContainer">
+        <header class="header">
+            <img src="img/logo.png" class="logo" onmousedown="return false">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a href="index.html" class="nav-list-link ">Home</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="introduction.html" class="nav-list-link">About</a>
+                    </li>
+                    <li class="nav-list-item in">
+                        <a href="login.html" class="nav-list-link">Signin</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="other.html" class="nav-list-link">Company</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <!--main-->
+    <div class="logblackbar"></div>
+        <div class="logcontainer">
+            <header class="logheader">
+                <h1 class="logheader-title">Sign In or Sign Up?</h1><br>
+            </header>
+
+            <div class="logblock">
+                               <!-- Overlay -->
+			<div class="container__overlay">
+				<div class="overlay">
+					<div class="overlay__panel overlay--down">
+						<button class="button-display" id="signIn">登 錄</button>
+					</div>
+                    
+					<div class="overlay__panel overlay--up">
+						<button class="button-display" id="signUp">注 冊</button>
+					</div>
+				</div>
+			</div>
+ 
+                <!-- Sign Up -->
+                <div style="width:320px;float: right;margin:0 auto;" ></div>
+                    <div class="container__form container--signup">
+                        <form action="#" class="form" id="form1">
+                            <h2 class="form__title">注 冊</h2>
+                            <input type="text" placeholder="使用者名稱" class="input" /><br>
+                            <input type="email" placeholder="Email" class="input" /><br>
+                            <input type="password" placeholder="密碼" class="input" /><br>
+                            <button class="btn">注 冊</button><br>
+                            </form>
+                    </div>
+                
+                <!-- Sign In -->
+                <div style="width:320px;float: right;margin:0 auto;" ></div>
+                    <div class="container__form container--signin">
+                        <form action="#" class="form" id="form2">
+                            <h2 class="form__title">登 錄</h2>
+                            <input type="email" placeholder="Email" class="input" /><br>
+                            <input type="password" placeholder="密碼" class="input" /><br>
+                            <a href="forget.html" class="link">忘記密碼?</a><br>
+                            <button class="btn">登 錄</button>
+                        </form>
+                    </div>
+
+            
+            </div>
+        </div>
+    </div>
+            <!--footer-->
+            <div class="footerContainer">
+                <footer class="footer">
+                    <div class="footerIconList" onmousedown="return false" >
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"><img src="img/FB.png" alt="FB" class="footerIcon"></a>
+                        <a href="https://www.youtube.com/watch?v=vKB2Lg-IM3I&ab_channel=nactually"><img src="img/IG.png" alt="IG" class="footerIcon"></a>
+                        <a href="https://www.youtube.com/watch?v=F0csAzB7Ss8&list=PLLP0dSZSKJPycPCwXHtnv8YciST5TcpmB&index=92&ab_channel=HermitGarcia "><img src="img/YT.png" alt="YT" class="footerIcon"></a>
+                    </div>
+                    <div class="verLine"></div>
+                    <div class="copyRight">Copyrights 2017 By Sickgame</div>
+                </footer>
+            </div>
+                
+            <a href="#top"><button type="button" class="goTopBtn">TOP</button></a>
+                    <script src="js/script.js"></script>
+                    
+                           
+</body>
+</html>
