@@ -1,5 +1,5 @@
 
-$(".dropMenuBtn").click(function(){
+$("#nav-icon3").click(function(){
     $(".panel").slideToggle();
 });
 
@@ -66,6 +66,11 @@ $(".asideArtB").mouseout(function(){
 
 
 
+$(document).ready(function(){
+	$("#nav-icon3").click(function(){
+		$(this).toggleClass('open');
+	});
+});
 
 $("#signIn").click(function(){
     $("#form2").css('display','block');
@@ -76,10 +81,4 @@ $("#signUp").click(function(){
     $("#form2").css('display','none');
 });
 //顯示
-document.getElementById("form2").style.display = "block"
-
-$(document).ready(function(){
-	$('#nav-icon3').click(function(){
-		$(this).toggleClass('open');
-	});
-});
+document.getElementById("form2").style.display = "block";
